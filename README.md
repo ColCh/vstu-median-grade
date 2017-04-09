@@ -10,6 +10,6 @@ It's Chrome extension that calculates student's median grade at rating page
 
 ## Installation
 
-Open extension file in  [out/extension.crx](./out/extension.crx).
+Download extension file:  [out/extension.crx](https://github.com/ColCh/vstu-median-grade/raw/master/out/extension.crx)
 
 Turn on developer mode in Chrome, then drag it to Chrome window.
