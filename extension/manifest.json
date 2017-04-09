@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Средняя оценка ВолгГТУ",
+  "version": "1.0",
+  
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  
+  "description": "Считает среднюю оценку студента на странице рейтинга",
+  "author": "colchgh@gmail.com ",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.vstu.ru/studentu/reiting-studenta.html",
+        "http://vstu.ru/studentu/reiting-studenta.html",
+        "https://www.vstu.ru/studentu/reiting-studenta.html",
+        "https://vstu.ru/studentu/reiting-studenta.html"
+      ],
+      "js": ["myscript.js"]
+    }
+  ],
+  "homepage_url": "https://github.com/ColCh",
+  "permissions": [
+    "tabs"
+  ]
+}
